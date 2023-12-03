@@ -28,7 +28,10 @@
 
   body, html {
     height: 100%;
+    background-color:black;
 }
+
+
 
 /* The hero image */
 .hero-image {
@@ -89,3 +92,30 @@ button:active {
 button i {
     margin-right: 8px; /* Adds spacing between the icon and text */
 }
+
+
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projects-title {
+    color:white;
+  }
+
+  .project-details {
+    color:white;
+  }
